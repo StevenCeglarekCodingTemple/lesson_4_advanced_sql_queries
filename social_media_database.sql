@@ -206,11 +206,11 @@ INSERT INTO accounts (email, password, user_id) VALUES
 
 -- Insert following relationships (50 records)
 INSERT INTO following (follower_id, followed_id) VALUES
-(1, 2), (1, 3), (1, 5), (1, 7), (1, 11), -- Alice follows multiple users
+(5, 4), (5, 6), (1, 5), (1, 7), (1, 11), -- Alice follows multiple users
 (2, 1), (2, 4), (2, 6), (2, 8), (2, 12), -- Bob follows multiple users
-(3, 1), (3, 5), (3, 9), (3, 13), (3, 17), -- Carol follows multiple users
+(3, 4), (3, 6), (3, 9), (3, 13), (3, 17), -- Carol follows multiple users
 (4, 2), (4, 6), (4, 10), (4, 14), (4, 18), -- David follows multiple users
-(5, 1), (5, 3), (5, 7), (5, 11), (5, 15), -- Emma follows multiple users
+(5, 4), (5, 3), (5, 7), (5, 11), (5, 15), -- Emma follows multiple users
 (6, 2), (6, 4), (6, 8), (6, 12), (6, 16), -- Frank follows multiple users
 (7, 1), (7, 3), (7, 5), (7, 9), (7, 13), -- Grace follows multiple users
 (8, 2), (8, 4), (8, 6), (8, 10), (8, 14), -- Henry follows multiple users
